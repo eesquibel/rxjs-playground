@@ -1,0 +1,8 @@
+<h1>Nodes</h1>
+<mat-selection-list #shoes (selectionChange)="selectionChange($event)">
+  <mat-list-option *ngFor="let node of nodes$ | async" [value]="node" [selected]="node.favorite">
+    {{node.title}}
+  </mat-list-option>
+</mat-selection-list>
+
+<pre>{{ favorites$ | async | json }}</pre>

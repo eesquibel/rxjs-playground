@@ -1,0 +1,42 @@
+{
+  "node": [
+    {
+      "id": 1,
+      "title": "Alpha"
+    },
+    {
+      "id": 3,
+      "title": "Beta"
+    },
+    {
+      "id": 5,
+      "title": "Gamma"
+    },
+    {
+      "id": 7,
+      "title": "Delta"
+    }
+  ],
+  "favorite": [
+    {
+      "id": 1,
+      "status": false,
+      "timestamp": 1575606991510
+    },
+    {
+      "id": 5,
+      "status": false,
+      "timestamp": 1575606990777
+    },
+    {
+      "id": 3,
+      "status": false,
+      "timestamp": 1575606991136
+    },
+    {
+      "id": 7,
+      "status": true,
+      "timestamp": 1575606559160
+    }
+  ]
+}
