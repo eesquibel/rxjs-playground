@@ -22,7 +22,7 @@ export class NodeService {
   }
 
   private Get(): Observable<NodeBase[]> {
-    return this.http.get<NodeBase[]>('http://localhost:3000/node');
+    return this.http.get<NodeBase[]>('http://localhost:3000/nodes');
   }
 
   public get State$(): Observable<NodeBase[]> {

@@ -1,5 +1,5 @@
 {
-  "node": [
+  "nodes": [
     {
       "id": 1,
       "title": "Alpha"
@@ -17,26 +17,28 @@
       "title": "Delta"
     }
   ],
-  "favorite": [
-    {
-      "id": 1,
-      "status": false,
-      "timestamp": 1575606991510
-    },
-    {
-      "id": 5,
-      "status": false,
-      "timestamp": 1575606990777
-    },
-    {
-      "id": 3,
-      "status": false,
-      "timestamp": 1575606991136
-    },
-    {
-      "id": 7,
-      "status": true,
-      "timestamp": 1575606559160
-    }
-  ]
+  "favorites": {
+    "data": [
+      {
+        "id": 1,
+        "status": true,
+        "timestamp": 1575606991510
+      },
+      {
+        "id": 3,
+        "status": true,
+        "timestamp": 1575614118762
+      },
+      {
+        "id": 5,
+        "status": true,
+        "timestamp": 1575614119388
+      },
+      {
+        "id": 7,
+        "status": true,
+        "timestamp": 1575606559160
+      }
+    ]
+  }
 }

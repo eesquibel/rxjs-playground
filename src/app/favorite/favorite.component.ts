@@ -14,7 +14,7 @@ interface NodeFavorite extends NodeBase {
 @Component({
   selector: 'app-favorite',
   templateUrl: './favorite.component.html',
-  styleUrls: ['./favorite.component.scss']
+  styleUrls: ['./favorite.component.scss'],
 })
 export class FavoriteComponent implements OnInit, OnDestroy {
 
@@ -37,9 +37,11 @@ export class FavoriteComponent implements OnInit, OnDestroy {
   }
 
   public ngOnInit(): void {
+    console.log('FavoriteComponent', 'ngOnInit');
   }
 
   public ngOnDestroy(): void {
+    console.log('FavoriteComponent', 'ngOnDestroy');
     this.subs.unsubscribe();
   }
 
@@ -47,7 +49,7 @@ export class FavoriteComponent implements OnInit, OnDestroy {
     this.favorite.Update({
       id,
       status
-    }).pipe(take(1)).subscribe();
+    });
   }
 
   public selectionChange(event: MatSelectionListChange): void {
